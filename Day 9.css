@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    border: 2px solid black;
+    background-color: rgb(231, 236, 236);
+    margin: auto;
+}
+.container h3{
+    margin: 10px 10px;
+}
+.label{
+    margin: 10px 10px;
+}
+.container input{
+    margin: 10px 10px;
+    width: 80%;
+    padding: 5px 5px;
+}
+.container select{
+    margin: 10px 10px;
+    width: 80%;
+    padding: 5px 5px;
+}
+.container button{
+    display: block;
+    margin:10px;
+    padding: 3px 3px;
+    width: 80%;
+    border: hidden;
+    background-color: rgb(106, 238, 112);
+    font-weight: 900;
+}
+.container button:hover{
+    background-color: rgb(135, 223, 77);
+    cursor: pointer;
+}
+.box1{
+    display: inline-block;
+    border: hidden;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 50%;
+}
+.box2{
+    display: inline-block;
+    border: hidden;
+    clear: left;
+    width: 48%;
+}
+
+.box3{
+    display: inline-block;
+    border: hidden;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    width: 50%;
+}
+.box4{
+    display: inline-block;
+    border: hidden;
+    clear: left;
+    width: 48%;
+    font-weight: 700;
+}
+.container2{
+    margin: 11px ;
+    border: hidden;
+    border-radius: 5px;
+    padding: 3px 3px;
+    background-color: rgb(241, 157, 157);
+    width: 80%;
+}
+.credit{
+    display: inline-block;
+    padding: 5px 5px;
+    
+}

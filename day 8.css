@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    border: 2px solid black;
+    background-color: rgb(174, 223, 223);
+    margin: 60px 60px;
+}
+.container h3{
+    margin: 10px 10px;
+}
+.label{
+    margin: 10px 10px;
+}
+.container input{
+    margin: 10px 10px;
+    width: 80%;
+    padding: 5px 5px;
+}
+.container select{
+    margin: 10px 10px;
+    width: 80%;
+    padding: 5px 5px;
+}
+.container button{
+    display: block;
+    margin:10px;
+    padding: 3px 3px;
+    width: 80%;
+    background-color: rgb(245, 238, 138);
+    font-weight: 900;
+}
+.container button:hover{
+    background-color: rgb(216, 219, 39);
+}
+.box1{
+    display: inline-block;
+    border: hidden;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+.box2{
+    display: inline-block;
+    border: hidden;
+    clear: left;
+    margin-left: 1250px;
+}
+.box3{
+    display: inline-block;
+    border: hidden;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.box4{
+    display: inline-block;
+    border: hidden;
+    clear: left;
+    margin-left: 1282px;
+    font-weight: 700;
+}
