@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(233, 192, 140);
+        }
+
+        .outborder {
+            display: inline-block;
+            border: 1px solid red;
+            width: 800px;
+            background-color: rgb(196, 158, 233);
+        }
+
+        #form1 label {
+            margin: 10px 20px;
+        }
+        #form1 div{
+            margin: 30px 20px;
+        }
+
+        #form1 .l3 {
+            margin-left: -180px;
+        }
+
+        #form1 .l4 {
+            margin-left: -140px;
+        }
+
+        #form1 .l5 {
+            margin-left: -260px;
+        }
+
+        #form1 .l6 {
+            margin-left: -270px;
+        }
+
+        #form1 .l7 {
+            margin-left: -130px;
+        }
+        #textarea{
+            padding-right:80px;
+            padding-bottom: 80px;
+        }
+        .input2{
+            margin-left: 1px;
+        }
+        .input3{
+            margin-left: -12px;
+        }
+        .input5{
+            margin-left: -2px;
+        }
+        .input6{
+            margin-left: -20px;
+        }
+        .input7{
+            margin-left: -20px;
+        }
+        .input8{
+            margin-left: 17px;
+        }
+        #submit{
+            border: 3px solid rgb(94, 93, 93);
+            background-color: rgb(130, 218, 221);
+        }
+        #submit:hover{
+            background-color:rgb(218, 159, 141);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Good Vibes Form</h1>
+    <div class="outborder">
+        <h4>Tell us something positive that happened to you today.</h4>
+        <form action="" id="form1">
+            <div>
+
+
+                <label for="" class="l1">Name</label> <input type="text" placeholder="Enter your name"><br>
+            </div>
+            <div><label for="" class="l2">Email</label> <input type="email" placeholder="Enter your email id"><br></div>
+            <div><label for="" class="l3">On a scale of 1-10, how good was it?</label> <input type="number" name="text"
+                    placeholder="Enter a number between 1 and 10"><br></div>
+            <div><label for="" class="l4">Where did it happen?</label>
+                <select name="select">
+
+                    <option value="option" disabled selected>Select</option>
+                    <option value="option">At home</option>
+                    <option value="option">At office</option>
+                    <option value="option">At Route</option>
+                    <option value="option">At somewhere</option>
+                </select><br>
+            </div>
+            <div><label for="" class="l5">At what time of day did it happen?</label>
+
+                <input type="radio" name="time" class="input1">Morning<br>
+                <input type="radio" name="time" class="input2">Afternoon<br>
+                <input type="radio" name="time" class="input3">Evening<br>
+            </div>
+
+            <div><label for="" class="l6">What emotions did you experience?</label>
+
+                <input type="checkbox" name="experience" class="input4">Excited<br>
+                <input type="checkbox" name="experience" class="input5">Humbled<br>
+                <input type="checkbox" name="experience" class="input6">Elated<br>
+                <input type="checkbox" name="experience" class="input7">Loved<br>
+                <input type="checkbox" name="experience" class="input8">Enthusiastic<br>
+            </div>
+
+            <div><label for="" class="l7">Please describe your positive experience.</label>
+                <input type="text" name="" id="textarea" placeholder="Enter your experience here..."><br></div>
+            <div>
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
